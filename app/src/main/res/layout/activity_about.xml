@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="16dp"
+android:paddingTop="20dp"
+android:paddingRight="16dp"
+android:background="@color/dark_bg_light_disabled_text"
+android:paddingLeft="25dp"
+tools:context="android.asr.batterystatus.AboutActivity">
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Battery Status"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:paddingBottom="10dp"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/tvAbout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/tvAbout"
+        android:text="Battery Status is great first step for improving your efficiency. This tool provides you with lots of useful information in very convenient way. It is also perfectly safe unlike some other apps and doesn't mess with your phone."
+        android:textAlignment="center"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tvAbout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/tvAbout2"
+        android:text="You can save your battery history for as long as you want and watch it in a convenient log or on history chart. It saves percentage, voltage, technology and temperature."
+        android:textAlignment="center"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tvAbout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/tvAbout3"
+        android:text="Is your battery temperature too high? You can check it here."
+        android:textAlignment="center"
+        android:paddingBottom="40dp"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tvAbout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvAbout4"
+        android:layout_gravity="center"
+        android:text="Andi Selamet Ramdani"
+        android:textAlignment="center"
+        android:textColor="@color/blue_600"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tvAbout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvAbout5"
+        android:layout_gravity="center"
+        android:text="14.11.8301"
+        android:textAlignment="center"
+        android:textColor="@color/blue_600"
+        android:textSize="22dp" />
+
+</RelativeLayout>
+
